@@ -1,0 +1,32 @@
+.container{
+    .container-rowOne{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    .container-footer-logo{
+        color: #046E1B;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+// antra eilute
+div.container-rowTwo.row { 
+    gap: 10rem;
+    
+    div:nth-child(1) > div > div > div>a{
+    color: #000 !important;
+    /* Sub Heading 2 */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+}
+
+}
+
+
