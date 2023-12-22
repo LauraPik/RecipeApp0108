@@ -2,19 +2,30 @@ import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import Search from '../search/Search'
+import { useState, useEffect } from 'react'
 
 import Header from "../header/Header";
-import SectionOne from "../sectionOne/SectionOne";
-import Recipes from '../sectionTwo/SectionTwo';
+import Recipes from '../Recipes/Recipes';
 import Footer from '../footer/Footer';
+import Recipe from '../Recipe/Recipe'
+import Promo from '../Promo/Promo'
+
+// liftinimas
 
 function App() {
+
+  
+
+
   return (
     <div className="App">
       <Header/>
-      <SectionOne/>
-      <Recipes/>
-      <Footer/>
+      <Promo />
+      <Search />
+      <Recipes />
+
+      <Footer />
     </div>
   );
 }

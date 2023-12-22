@@ -1,10 +1,10 @@
 import './sectionOne.scss';
 import {Container, Row, Col} from 'react-bootstrap';
-import breakfast from '../sectionOne/img/br.png'
+import breakfast from '../Promo/img/br.png'
 import Button from 'react-bootstrap/Button';
 
 
-const SectionOne = () =>{
+const Promo = () =>{
  return(
     <Container>
       <Row>
@@ -20,4 +20,4 @@ const SectionOne = () =>{
     </Container>
  );   
 }
-export default SectionOne
+export default Promo
