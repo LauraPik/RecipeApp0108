@@ -1,22 +1,24 @@
 import { Container, Row, Col} from 'react-bootstrap';
-import first from '../Recipes/imgSecTwo/first.png';
+import './Recipe.scss';
 import clock from '../Recipes/imgSecTwo/clock.png';
 import user from '../Recipes/imgSecTwo/user.png';
 import scale from '../Recipes/imgSecTwo/scale.png';
+import Search from '../search/Search';
+import { Link } from 'react-router-dom';
 
 
 const Recipe = (props) =>{
+
     return(
         <>
-    <Container container className='recipes-container'>
-    <Row className='recipes-container-rowImgFirstLine'>
         <Col xs={12} sm={12} md={4}>
 
           <div className='recieptBlock'>
 
             <div className='imageContainer'>
 
-              <img src={first} alt="first img" />
+              <img src={props.img} alt="first img" />
+              
               <div className="miniInformation">
 
                 {/* Informacijos kortele nuotraukoje */}
@@ -37,14 +39,11 @@ const Recipe = (props) =>{
             {/* Info korteles pabaiga */}
             
             <h4>
-            Creamy Salad
+            {props.title}
             </h4>
-            <a href="#">View Recipe</a>
+            <Link className="" to={`/Recipes/${props.id}`}>View Recipe</Link>
           </div>
         </Col>
-        
-    </Row>
-    </Container>
         </>
     )
 }

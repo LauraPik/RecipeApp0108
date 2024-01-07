@@ -18,7 +18,7 @@ function Footer() {
     <Row className='container-rowTHree'>
 {/* Menu column start */}
         <Col> 
-                <h4 class='container-rowTHree-title'>Menu</h4>
+                <h4 className='container-rowTHree-title'>Menu</h4>
             <Nav className="flex-column">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#">Recipe</Nav.Link>
