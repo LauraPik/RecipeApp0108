@@ -1,5 +1,5 @@
 {
-  "homepage": "http://RecipeReactTill0108.github.io/recipes-app-react",
+  "homepage": "https://laurapik.github.io/RecipeApp0108/",
   "name": "recpetai1208",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages main -d build"
+    
   },
   "eslintConfig": {
     "extends": [
